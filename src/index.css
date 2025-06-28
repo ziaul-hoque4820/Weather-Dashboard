@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+.btn-primary {
+    @apply bg-[#B4D429] text-white py-2 px-4 rounded;
+}
+
+.container-custom {
+    @apply container mx-auto px-5;
+}
+
+.bg-dark {
+    @apply bg-[#171923] text-white;
+}

@@ -1,20 +1,18 @@
 import React from 'react'
 
-import { useLocalStoage } from '../hooks'
+import { useLocalStorage } from '../hooks'
 import { FavouriteContext } from '../context/weatherContext';
 
 function FavouriteProvider({ children }) {
-    const [favourites, setFavourites] = useLocalStoage("favourites", []);
+    const [favourites, setFavourites] = useLocalStorage("favourites", []);
 
     const addToFavourites = (latitude, longitude, location) => {
-        setFavourites(
-            ...favourites,
-            {
-                latitude: latitude,
-                longitude: longitude,
-                location: location
-            }
-        )
+        setFavourites([...favourites,
+        {
+            latitude: latitude,
+            longitude: longitude,
+            location: location
+        }])
     }
 
     const removeFromFavourites = (location) => {

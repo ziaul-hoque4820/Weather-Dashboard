@@ -38,6 +38,7 @@ const useWeather = () => {
             const response = await fetch(
                 `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`
             );
+            
 
             if (!response.ok) {
                 const errorMessage = `Fetching weather data failed: ${response.status}`;
@@ -76,6 +77,7 @@ const useWeather = () => {
 
     useEffect(() => {
         setLoading({
+            ...loading,
             state: true,
             message: "Finding location..."
         });

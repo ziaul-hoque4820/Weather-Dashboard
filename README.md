@@ -151,8 +151,8 @@ src/
 
 ## 👨‍💻 Author
 
-**Ziaul Hoque**  
-📧 Email: [Ziaul Hoque Patwary]  
+**Ziaul Hoque Patwary**  
+📧 Email: [**ziaul.dev@gmail.com**] 
 🔗 GitHub: [ziaul-hoque4820](https://github.com/ziaul-hoque4820)
 
 ---

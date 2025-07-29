@@ -45,7 +45,7 @@ function WeatherHeadline() {
                     <h1 className="text-[60px] lg:text-[80px] xl:text-[100px] leading-none md:mb-4">{Math.round(temperature)}°</h1>
                     <div className="flex items-center space-x-4 md:mb-4">
                         <img src={PinIcon} alt='pin_img' />
-                        <h2 className="text-2xl lg:text-[50px]">{location}</h2>
+                        <h2 className="text-[16px] sm:text-[20px] lg:text-[50px]">{location}</h2>
                     </div>
                 </div>
             </div>

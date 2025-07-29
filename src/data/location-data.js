@@ -280,6 +280,7 @@ const data = [
     { location: "Shahrasti", latitude: 23.2290335, longitude: 90.950342 },
     { location: "Barura", latitude: 23.3761885, longitude: 91.0543359 },
     { location: "Payalgacha", latitude: 23.2858601, longitude: 90.9997937 },
+    { location: "Mount Everest", latitude: 27.9882, longitude: 86.9254 }
 ];
 
 export function getLocation() {

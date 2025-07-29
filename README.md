@@ -116,6 +116,15 @@ Click the image below to watch the full demo on Vimeo:
 
 ---
 
+## 🌍 Supported Locations
+
+The app currently supports weather search for **275 predefined locations**.  
+You can only search for these locations.
+
+📄 See full list here: [SUPPORTED_LOCATIONS.md](./SUPPORTED_LOCATIONS.md)
+
+---
+
 ## 🔮 Future Improvements
 
 - Enable search for **any location** globally via geocoding API

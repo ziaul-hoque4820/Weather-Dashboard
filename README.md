@@ -95,16 +95,24 @@ It allows searching from a dataset of **275 predefined locations** with latitude
 
 ## 📸 Screenshots
 
-![Homepage View](./screenshots/homepage.png)  
-![Search Result](./screenshots/search.png)  
-![Favorites View](./screenshots/favorites.png)
+![Homepage View](./public/weather-deshboard-home-page.PNG)  
+![Search Result](./public/weather-deshboard-search-page-1.PNG)  
+![Favorites View](./public/weather-deshboard-fav-page-1.PNG)
+
+---
+
+## 🎬 Demo Video
+
+Click the image below to watch the full demo on Vimeo:
+
+[![Watch Demo](./public/weather-deshboard-home-page.PNG)](https://vimeo.com/1105562996)
 
 ---
 
 ## 🔗 Project Links
 
 - 🔗 **GitHub Repository:** [https://github.com/ziaul-hoque4820/Weather-Dashboard](https://github.com/ziaul-hoque4820/Weather-Dashboard)
-- 🌐 **Live Demo:** [Add your live demo link here]
+- 🌐 **Live Demo:** [https://weather-dashboard-three-iota.vercel.app/] (https://weather-dashboard-three-iota.vercel.app/)
 
 ---
 
@@ -131,9 +139,15 @@ src/
 │   └── weatherContext.jsx
 ├── hooks/
 │   └── useWeather.js
+│   └── useLocalStorage.js
 ├── data/
-│   └── locations.js
+│   └── locations-data.js
+├── provider/
+│   └── WeatherProvider.js
+├── utils/
+│   └── date-utils.js
 ├── App.jsx
+├── Page.jsx
 └── main.jsx
 ```
 
